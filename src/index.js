@@ -4,7 +4,6 @@ const apiRoutes = require("./api/routes");
 
 const app = express();
 
-
 app.use("/api" , apiRoutes);
 
 app.listen(ServerConfig.PORT, () => {
